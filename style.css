@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap&subset=latin-ext');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+}
+.logo-section{
+    width: 570px;
+    height: 100px;
+    background-color: brown;
+    float: left;
+}
+.menu-section{
+    width: 570px;
+    height: 100px;
+    /* background-color: chocolate; */
+    float: left;
+}
+nav{
+    margin-top: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 300px;
+    background-color: khaki;
+    float: left;
+    font-family: 'Russo One', sans-serif;
+}
+header{
+    width: 100%;
+}
+/* gallary section start */
+.one{
+    width: 25%;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+.two{
+    width: 25%;
+    height: 200px;
+    background-color: aqua;
+    float: left;
+}
+.three{
+    width: 25%;
+    height: 200px;
+    background-color: red;
+    float: left;
+}
+.four{
+    width: 25%;
+    height: 200px;
+    background-color: greenyellow;
+    float: left;
+}
+/* gallary section end */
+
+/* discover section start */
+.left-side{
+    width: 75%;
+    height: 200px;
+    background-color: black;
+    float: left;
+}
+.right-side{
+    width: 25%;
+    height: 200px;
+    background-color: coral;
+    float: left;
+}
+
+/* discover section end */
